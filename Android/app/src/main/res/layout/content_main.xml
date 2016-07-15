@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fritz.livedemo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:text="Button"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:id="@+id/button"
+        app:layout_constraintLeft_toLeftOf="@+id/content_main"
+        app:layout_constraintTop_toTopOf="@+id/content_main"
+        app:layout_constraintRight_toRightOf="@+id/content_main"
+        app:layout_constraintBottom_toBottomOf="@+id/content_main" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="58dp"
+        android:layout_height="16dp"
+        android:id="@+id/textView"
+        app:layout_constraintLeft_toLeftOf="@+id/content_main"
+        app:layout_constraintRight_toRightOf="@+id/content_main"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_marginBottom="24dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_de0adb36218caa1602a7bde311ceee5f0fdfdbca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_623417037de0f40b1c9df52246b62cdb3688ccc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_d89de5caf79bd3a7b80674da071fd1ef89ac235d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="b63d12446c8fec5291bc6db8e7b7a7495f1d867f">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_10ec5822d61bb2d747f1d5d54eef8fdddf36f4b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha3_ebff14fc8da045ab7be4441c2f1d2d1fcb0fe99c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_0c6b0920c204210321c7fa64c2b81fb2a132a63d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_720dd78441f023b89fdefc037e8d3ab8efe1b5f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_db75e104d5de97d6814866fd1a6a328ee2f5beef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha3/constraint-layout-solver-1.0.0-alpha3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="977d57354ef7ef4faa604b802d4907728e0db889">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha3_f486eb0dffbb5710b410bec2fbb3048b160422cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_ffc6d5ba04a9ff6405bc1ea6cb40275162cc8e23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_eebd646f70a5561b4c73e77ed1c63e816f3013bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/unity-ads/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="193a7ccde5df90d6a05f49af36776dac052fde5d">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-unity-ads_3548c9b5399c7f189f75816a7fd399a12cd67dfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_59bb027260dc6b9e65d121ada131e82657cb79e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha3_1b6cf0d7ffe404c314bbcfd8752672086f48ef22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6734e3e77c88918b431c39131b6d37427e7d5479">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_15df058e061cdaf1bb7727dd07a5c4685a782b0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_ca16d18dbd54e1ab53281c02502a2efd3525f276/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/unity-ads/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="193a7ccde5df90d6a05f49af36776dac052fde5d">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-unity-ads_b6dfdcd8d0a0f3440d7a2fb3624d6bafd38cbb4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_6c241ca7b72f68dea8351232f33c437673f77f75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_3527db866eaf2074defe9552c0a0557686bc74f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="415ca58d0cd8374fdeeb54e7c3c484f17595ae63">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_40ef02699b86f82a368cd833df4210fbee4500ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_f74fa0b4fbe7cb002496c8aa40a7220f340d7f86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_3d0391a73a1e822b4704e73f50ca84d820f4edaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_8b1b73a11832a2221bdabda9eb70ce1b6c579bef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_b673b9e4ce385b29ff1a2cc39c251c6cebb273fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_e520fa7f1647de96698b2c40c74d766aee91cb28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_d47b64328aaebf12a0cb4cc35a9abf927d45a76e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_65a653beca13992ee46c54a198255c4ceaf2a907/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/fritz/AndroidStudioProjects/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_361816db6724902c8f104b5d2301eb0f6c79e4b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_d893d676c72da975785a0af3c60370785729be6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="23aa344afd70b6873d1bf161165e192d9623a110">
+        <dex dex="/Users/fritz/repocity/Unity-Ads-SDK-2.0-Integration-Examples/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0ece01d3df9aa5cbf2f59e176e5104a06c1d10b9/classes.dex" />
+    </item>
+
+</items>
