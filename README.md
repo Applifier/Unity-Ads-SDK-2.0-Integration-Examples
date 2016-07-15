@@ -7,7 +7,7 @@ Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads
 
 ( ADD LINK TO VIDEO TUTORIALS HERE )
 
-###[Before we begin (iOS & Andoid)](#start)
+###[To get started](#start)
   1. Create a Game Project in the [Unity Ads dashboard](https://dashboard.unityads.unity3d.com)
   2. Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases) or [Android](https://github.com/Unity-Technologies/unity-ads-android/releases).
 
