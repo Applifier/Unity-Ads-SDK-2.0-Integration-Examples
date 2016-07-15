@@ -7,8 +7,8 @@ Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads
 
 ( ADD LINK TO VIDEO TUTORIALS HERE )
 
-###[To get started](#start)
-  1. Create a Game Project in the [Unity Ads dashboard](https://dashboard.unityads.unity3d.com)
+###[To Get Started](#start)
+  1. Create a Game Project in the [Unity Ads Dashboard](https://dashboard.unityads.unity3d.com)
   2. Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases) or [Android](https://github.com/Unity-Technologies/unity-ads-android/releases).
 
 ###[Android Integration](#android-header)
@@ -28,9 +28,9 @@ Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads
 ---
  
 <a name="start"/>
-# Before we begin (iOS & Andoid)
+# To Get Started
 
-### Create a Game Project in the [Unity ads dashboard](https://dashboard.unityads.unity3d.com)
+### Create a Game Project in the [Unity Ads Dashboard](https://dashboard.unityads.unity3d.com)
 
 Log into the [Unity ads dashboard](https://dashboard.unityads.unity3d.com) using your [Unity3D account](https://unity3d.com).
 
@@ -67,7 +67,7 @@ dependencies {
 ```
 
 <a name="a2"/>
-### 2. Add listener & callbacks
+### 2. Add Listener & Callbacks
 
 In **MainActivity.java** (or any activity that will show ads), add the Unity Ads headers.
 
@@ -136,7 +136,7 @@ protected void onCreate(Bundle savedInstanceState) {
 ```
 
 <a name="a4"/>
-### 4. Show an ad
+### 4. Show an Ad
 In my example, I use a button to show an ad.
 
 ```java
@@ -151,7 +151,7 @@ public void buttonOnClick(View v) {
 > Find more information on placements in our [docs](http://unityads.unity3d.com/help/monetization/placements).
 
 <a name="a5"/>
-### 5. Reward the player
+### 5. Reward the Player
 
 In the UnityAdsListener class, there's a method, `onUnityAdsFinish`, that is called when a video finishes.
 
@@ -189,7 +189,7 @@ From the downloaded Unity Ads 2.0 folder, locate **UnityAds.framework**.
 Drag-and-drop **UnityAds.framework** into your XCode project (and copy it).
 
 <a name="i2"/>
-### 2. Add delegate & callbacks
+### 2. Add Delegate & Callbacks
 In **ViewController.m** (or any ViewController that will show ads), import the UnityAds namespace.
 
 ```Swift
@@ -238,7 +238,7 @@ Initialize Unity Ads by calling `UnityAds.initialize("YOUR_GAME_ID", delegate: s
 ```
 
 <a name="i4"/>
-### 4. Show an ad
+### 4. Show an Ad
 In the example project, a button is used to show an ad.
 
 ```swift
@@ -253,7 +253,7 @@ In the example project, a button is used to show an ad.
 > Find more information on placements in our [docs](http://unityads.unity3d.com/help/monetization/placements).
 
 <a name="i5"/>
-### 5. Reward the player
+### 5. Reward the Player
 The callback `unityAdsDidFinish(...)` is called when a video finishes.
 
 Use `unityAdsDidFinish(...)` to reward the player if they watched the entire ad.
