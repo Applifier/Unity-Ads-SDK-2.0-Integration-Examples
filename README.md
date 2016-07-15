@@ -3,10 +3,6 @@
 
 This guide provides step-by-step instructions to integrate Unity Ads 2.0 into an **Android Studio** or **iOS (Swift or Objc)** project.
 
-Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases) or [Android](https://github.com/Unity-Technologies/unity-ads-android/releases).
-
-( ADD LINK TO VIDEO TUTORIALS HERE )
-
 ###[To Get Started](#start)
   1. Create a Game Project in the [Unity Ads Dashboard](https://dashboard.unityads.unity3d.com)
   2. Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases) or [Android](https://github.com/Unity-Technologies/unity-ads-android/releases).
