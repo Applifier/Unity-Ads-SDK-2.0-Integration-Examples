@@ -1,7 +1,7 @@
 
 # Integration Walkthrough for iOS and Android
 
-This guide provides step-by-step instructions to integrate Unity Ads 2.0 into an **Android Studio** or **iOS (Swift or Objc)** project.
+This guide provides step-by-step instructions to integrate Unity Ads 2.0 into an **Android Studio** or **iOS** project.
 
 ###[To Get Started](#start)
   1. Create a Game Project in the [Unity Ads Dashboard](https://dashboard.unityads.unity3d.com)
@@ -83,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 Mouse over the class declaration to reveal a red lightbulb, then click "Implement methods" to automatically add the required callbacks:
+
+> ![Alt text](/img/redbulb.png?raw=true "")
 
 ```java 
 private class UnityAdsListener implements IUnityAdsListener {
