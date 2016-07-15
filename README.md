@@ -47,6 +47,7 @@ Download the [Unity Ads 2.0 for Android](https://github.com/Unity-Technologies/u
 <a name="android-header"/>
 #Android Integration
 
+Example project is available [here](https://github.com/Applifier/Unity-Ads-SDK-2.0-Integration-Examples/tree/master/Android)
 
 <a name="a1"/>
 ### 1. Import Unity Ads
@@ -265,6 +266,6 @@ func unityAdsDidFinish(placementId: String, withFinishState state: UnityAdsFinis
 }
 ```
 
-Example project is available [here](). ADD A LINK HERE
+Example project is available [here](https://github.com/Applifier/Unity-Ads-SDK-2.0-Integration-Examples/tree/master/ios)
 
 ---
