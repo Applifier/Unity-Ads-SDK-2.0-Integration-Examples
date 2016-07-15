@@ -1,31 +1,29 @@
 
-# Quickstart Guide for iOS and Android
+# Integration Walkthrough for iOS and Android
 
 This guide provides step-by-step instructions to integrate Unity Ads 2.0 into an **Android Studio** or **iOS (Swift or Objc)** project.
 
-Download Unity Ads SDK 2.0 for **[iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases)** or **[Android](https://github.com/Unity-Technologies/unity-ads-android/releases)**.
+Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases) or [Android](https://github.com/Unity-Technologies/unity-ads-android/releases).
 
 ( ADD LINK TO VIDEO TUTORIALS HERE )
 
-For complete documentation please visit http://unityads.unity3d.com/help/monetization/integration-guide-android
-
 ###[Before we begin (iOS & Andoid)](#start)
   1. Create a Unity Ads Game Project
-  2. Download the Unity Ads SDK 2.0
+  2. Download Unity Ads 2.0 for [iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases) or [Android](https://github.com/Unity-Technologies/unity-ads-android/releases).
 
 ###[Android Integration](#android-header)
-  1. Import Unity Ads SDK
-  2. Add listener & callbacks
-  3. Initialize SDK
-  4. Show an Ad
-  5. Add rewarded integration
+  1. [Import Unity Ads](#a1)
+  2. [Add listener & callbacks](#a2)
+  3. [Initialize Unity Ads](#a3)
+  4. [Show an Ad](#a4)
+  5. [Add rewarded integration](#a5)
 
 ###[iOS Integration](#ios-header)
-  1. Import Unity Ads SDK
-  2. Add delegate & callbacks
-  3. Initialize SDK
-  4. Show an Ad
-  5. Add rewarded integration
+  1. [Import Unity Ads](i1)
+  2. [Add delegate & callbacks](i1)
+  3. [Initialize Unity Ads](i1)
+  4. [Show an Ad](i1)
+  5. [Add rewarded integration](i1)
   
 ---
  
@@ -44,22 +42,18 @@ Create a new game project, and enable test mode
   
 > Please note that test mode can be toggled under (add screenshot)
 
-At this point you should see a unique (7-digit) game ID that can be used to initialize the SDK in your project.
+At this point you should see a unique (7-digit) game ID that can be used to initialize Unity Ads in your project.
 
-Download the [Unity Ads 2.0 SDK](https://github.com/Unity-Technologies/unity-ads-android/releases).
+Download the [Unity Ads 2.0 for Android](https://github.com/Unity-Technologies/unity-ads-android/releases).
 
 ---
 
 <a name="android-header"/>
 #Android Integration
 
-  1. Import Unity Ads SDK
-  2. Create listener & callbacks
-  3. Initialize the SDK
-  4. Show an ad
-  5. Reward the player
 
-### 1. Import Unity Ads SDK
+<a name="a1"/>
+### 1. Import Unity Ads
 From the downloaded Unity Ads 2.0 folder, locate **unity-ads.aar** and import using Android Studio's AAR import tool.
 
 Or...
@@ -71,6 +65,8 @@ dependencies {
     compile(name:'unity-ads', ext:'aar')
 }
 ```
+
+<a name="a2"/>
 ### 2. Add listener & callbacks
 
 In **MainActivity.java** (or any activity that will show ads), add the Unity Ads headers.
@@ -96,7 +92,7 @@ Mouse over the class declaration to reveal a red lightbulb, then click "Implemen
 private class UnityAdsListener implements IUnityAdsListener {
   @Override
   public void onUnityAdsReady(String s) {
-    //Called when SDK has a video available to show
+    //Called when Unity Ads has a video available to show
   }
 
   @Override
@@ -111,12 +107,13 @@ private class UnityAdsListener implements IUnityAdsListener {
   
   @Override
   public void onUnityAdsError(UnityAds.UnityAdsError unityAdsError, String s) {
-    //Called when the SDK detects an error
+    //Called when the Unity Ads detects an error
   }
 }
 ```
 
-### 3. Initialize the SDK
+<a name="a3"/>
+### 3. Initialize Unity Ads
 
 First, declare a **UnityAdsListener** in your activity.
 ```java
@@ -127,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-Then, initialize the SDK within the same scope as your **UnityAdsListener** declaration, using the game ID from your dashboard.
+Then, initialize Unity Ads within the same scope as your **UnityAdsListener** declaration, using the game ID from your dashboard.
 
 > Note: "YOUR_GAME_ID" is a 7-digit number from your game project in the [Unity Ads dashboard](https://dashboard.unityads.unity3d.com). (For example, "1091553")
 
@@ -138,6 +135,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 ```
 
+<a name="a4"/>
 ### 4. Show an ad
 In my example, I use a button to show an ad.
 
@@ -152,6 +150,7 @@ public void buttonOnClick(View v) {
 > note: By default, leaving the *placement* option blank will show an ad with the default **"video"** placement. (5-second skip)
 > Find more information on placements in our [docs](http://unityads.unity3d.com/help/monetization/placements).
 
+<a name="a5"/>
 ### 5. Reward the player
 
 In the UnityAdsListener class, there's a method, `onUnityAdsFinish`, that is called when a video finishes.
@@ -183,17 +182,13 @@ Example project is available [here](). ADD A LINK HERE
 
 --- 
 
-  1. Import Unity Ads SDK
-  2. Add delegate & callback methods
-  3. Initialize the SDK
-  4. Show an ad
-  5. Reward the player
-
-### 1. Import Unity Ads SDK
+<a name="i1"/>
+### 1. Import Unity Ads
 From the downloaded Unity Ads 2.0 folder, locate **UnityAds.framework**.
 
 Drag-and-drop **UnityAds.framework** into your XCode project (and copy it).
 
+<a name="i2"/>
 ### 2. Add delegate & callbacks
 In **ViewController.m** (or any ViewController that will show ads), import the UnityAds namespace.
 
@@ -213,11 +208,11 @@ class ViewController: UIViewController, UnityAdsDelegate {
   }
 
   func unityAdsReady(placementId: String) {
-    //Called when the SDK is ready to show an ad
+    //Called when Unity Ads is ready to show an ad
   }
 
   func unityAdsDidStart(placementId: String) {
-    //Called when SDK begins playing a video
+    //Called when Uniy Ads begins playing a video
   }
 
   func unityAdsDidFinish(placementId: String, withFinishState state: UnityAdsFinishState) {
@@ -229,8 +224,9 @@ class ViewController: UIViewController, UnityAdsDelegate {
 }
 ```
 
-### 3. Initialize the SDK
-Initialize the SDK by calling `UnityAds.initialize("YOUR_GAME_ID", delegate: self)`
+<a name="i3"/>
+### 3. Initialize Unity Ads
+Initialize Unity Ads by calling `UnityAds.initialize("YOUR_GAME_ID", delegate: self)`
 
 > Note: "YOUR_GAME_ID" is a 7-digit number from the [Unity Ads dashboard](https://dashboard.unityads.unity3d.com). (For example, "1091553")
 
@@ -241,6 +237,7 @@ Initialize the SDK by calling `UnityAds.initialize("YOUR_GAME_ID", delegate: sel
   }
 ```
 
+<a name="i4"/>
 ### 4. Show an ad
 In the example project, a button is used to show an ad.
 
@@ -255,12 +252,13 @@ In the example project, a button is used to show an ad.
 > note: By default, leaving the *placement* option blank will show an ad with the default **"video"** placement. (5-second skip)
 > Find more information on placements in our [docs](http://unityads.unity3d.com/help/monetization/placements).
 
+<a name="i5"/>
 ### 5. Reward the player
 The callback `unityAdsDidFinish(...)` is called when a video finishes.
 
 Use `unityAdsDidFinish(...)` to reward the player if they watched the entire ad.
 
-```java
+```swift
 func unityAdsDidFinish(placementId: String, withFinishState state: UnityAdsFinishState) {
   if(state != .Skipped){
     //video was not skipped, reward the player!
